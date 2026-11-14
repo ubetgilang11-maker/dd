@@ -7,7 +7,7 @@ namespace ResourceGuardian.Services
     /// Centralized P/Invoke surface. Keep all unsafe/native declarations here so the
     /// rest of the app only talks to managed wrapper classes (JobObjectManager, etc).
     /// </summary>
-    internal static class NativeMethods
+    public static class NativeMethods
     {
         // ---------- Process access & priority/affinity ----------
 
